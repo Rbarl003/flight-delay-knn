@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Data (uncomment if raw data should not be committed)
+# data/flights.csv
+
+# Keep output folders but ignore their generated contents
+outputs/figures/*
+outputs/models/*
+!outputs/figures/.gitkeep
+!outputs/models/.gitkeep
+data/*.csv
